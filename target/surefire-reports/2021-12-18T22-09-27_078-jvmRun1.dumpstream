@@ -1,0 +1,498 @@
+# Created at 2021-12-18T22:09:54.768
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-12-18T22:09:57.431
+Unexpected IOException with stream:   [31mGiven [0m[31mI am on the Login page URL "[0m[31m[1mModulr Payments[0m[31m"[0m        [90m# stepdefinitions.LoginSteps.i_am_on_the_Login_page_URL(java.lang.String)[0m
+
+
+# Created at 2021-12-18T22:09:57.433
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '9XXDAMBEKAR', ip: '192.168.225.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ambekar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: edaff247d7f0b9a1af65a8208803895b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at com.pages.LoginPage.getLoginPageTitle(LoginPage.java:24)
+	at stepdefinitions.LoginSteps.i_am_on_the_Login_page_URL(LoginSteps.java:21)
+	at âœ½.I am on the Login page URL "Modulr Payments"(file:///C:/Users/ambekar/Desktop/document/ModulrProject/Cucumber-BDD-Modulr/src/test/resources/feature/LoginPage.feature:4)
+[0m
+
+
+# Created at 2021-12-18T22:09:57.441
+Unexpected IOException with stream:   [36mWhen [0m[36mI enter username as "[0m[36m[1mSavita.Adhal86[0m[36m"[0m                 [90m# stepdefinitions.LoginSteps.i_enter_username_as(java.lang.String)[0m
+
+
+# Created at 2021-12-18T22:09:57.443
+Unexpected IOException with stream:   [36mAnd [0m[36mI enter password as "[0m[36m[1mDecember@2021[0m[36m"[0m                   [90m# stepdefinitions.LoginSteps.i_enter_password_as(java.lang.String)[0m
+
+
+# Created at 2021-12-18T22:09:57.444
+Unexpected IOException with stream:   [36mAnd [0m[36mclick on login button[0m                                 [90m# stepdefinitions.LoginSteps.click_on_login_button()[0m
+
+
+# Created at 2021-12-18T22:09:57.446
+Unexpected IOException with stream:   [36mThen [0m[36mI am logged in "[0m[36m[1mModulr Payments[0m[36m"[0m                     [90m# stepdefinitions.LoginSteps.i_am_logged_in(java.lang.String)[0m
+
+
+# Created at 2021-12-18T22:09:57.450
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '9XXDAMBEKAR', ip: '192.168.225.238', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ambekar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: edaff247d7f0b9a1af65a8208803895b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at appHooks.ApplicationHooks.tearDown(ApplicationHooks.java:52)
+[0m
+
+
+# Created at 2021-12-18T22:09:58.575
+Unexpected IOException with stream: Dec 18, 2021 10:09:58 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration not found. Using default settings.
+
+
+# Created at 2021-12-18T22:09:59.320
+Unexpected IOException: 8,1,testrunners.MyTestRunner,null on testrunners.MyTestRunner(testrunners.MyTestRunner),null,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()V,null,org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()V,MyTestRunner \00BB NoSuchMethod org.apache.pdfbox.pdmodel.interactive.annotation.P...,java.lang.NoSuchMethodError: org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()V\000A
+
+
+# Created at 2021-12-18T22:09:59.348
+Unexpected IOException with stream: [TestNG] Reporter org.testng.reporters.jq.Main@4fbb1144 failed
+
+
+# Created at 2021-12-18T22:09:59.349
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created at 2021-12-18T22:09:59.349
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.350
+Unexpected IOException with stream: 	at java.base/java.lang.StringBuilder.<init>(StringBuilder.java:124)
+
+# Created at 2021-12-18T22:09:59.351
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.351
+Unexpected IOException with stream: 	at org.testng.reporters.jq.Model.getTestResultName(Model.java:139)
+
+# Created at 2021-12-18T22:09:59.352
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.352
+Unexpected IOException with stream: 	at org.testng.reporters.jq.ChronologicalPanel.getContent(ChronologicalPanel.java:67)
+
+# Created at 2021-12-18T22:09:59.353
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.353
+Unexpected IOException with stream: 	at org.testng.reporters.jq.BaseMultiSuitePanel.generate(BaseMultiSuitePanel.java:24)
+
+# Created at 2021-12-18T22:09:59.354
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.354
+Unexpected IOException with stream: 	at org.testng.reporters.jq.Main.generateReport(Main.java:65)
+
+# Created at 2021-12-18T22:09:59.355
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.355
+Unexpected IOException with stream: 	at org.testng.TestNG.generateReports(TestNG.java:1097)
+
+# Created at 2021-12-18T22:09:59.356
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.357
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1022)
+
+# Created at 2021-12-18T22:09:59.357
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.358
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+
+# Created at 2021-12-18T22:09:59.358
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.359
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+
+# Created at 2021-12-18T22:09:59.359
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.360
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+
+# Created at 2021-12-18T22:09:59.360
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.361
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+
+# Created at 2021-12-18T22:09:59.362
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.362
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2021-12-18T22:09:59.362
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.363
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2021-12-18T22:09:59.363
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.364
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2021-12-18T22:09:59.364
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2021-12-18T22:09:59.365
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.368
+Unexpected IOException with stream: [TestNG] Reporter org.testng.reporters.XMLReporter@4c2ab536 failed
+
+
+# Created at 2021-12-18T22:09:59.368
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created at 2021-12-18T22:09:59.369
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.369
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+
+# Created at 2021-12-18T22:09:59.370
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.370
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+
+# Created at 2021-12-18T22:09:59.371
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.372
+Unexpected IOException with stream: 	at java.base/java.util.Properties.put(Properties.java:1326)
+
+# Created at 2021-12-18T22:09:59.372
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.373
+Unexpected IOException with stream: 	at java.base/java.util.Properties.setProperty(Properties.java:226)
+
+# Created at 2021-12-18T22:09:59.373
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.374
+Unexpected IOException with stream: 	at org.testng.reporters.XMLSuiteResultWriter.getTestResultAttributes(XMLSuiteResultWriter.java:185)
+
+# Created at 2021-12-18T22:09:59.374
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.375
+Unexpected IOException with stream: 	at org.testng.reporters.XMLSuiteResultWriter.addTestResult(XMLSuiteResultWriter.java:153)
+
+# Created at 2021-12-18T22:09:59.375
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.376
+Unexpected IOException with stream: 	at org.testng.reporters.XMLSuiteResultWriter.addTestResults(XMLSuiteResultWriter.java:132)
+
+# Created at 2021-12-18T22:09:59.376
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.377
+Unexpected IOException with stream: 	at org.testng.reporters.XMLSuiteResultWriter.writeAllToBuffer(XMLSuiteResultWriter.java:76)
+
+# Created at 2021-12-18T22:09:59.377
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.378
+Unexpected IOException with stream: 	at org.testng.reporters.XMLSuiteResultWriter.writeSuiteResult(XMLSuiteResultWriter.java:54)
+
+# Created at 2021-12-18T22:09:59.378
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.379
+Unexpected IOException with stream: 	at org.testng.reporters.XMLReporter.writeSuiteToBuffer(XMLReporter.java:134)
+
+# Created at 2021-12-18T22:09:59.379
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.380
+Unexpected IOException with stream: 	at org.testng.reporters.XMLReporter.writeSuite(XMLReporter.java:96)
+
+# Created at 2021-12-18T22:09:59.380
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.381
+Unexpected IOException with stream: 	at org.testng.reporters.XMLReporter.generateReport(XMLReporter.java:69)
+
+# Created at 2021-12-18T22:09:59.381
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.382
+Unexpected IOException with stream: 	at org.testng.TestNG.generateReports(TestNG.java:1097)
+
+# Created at 2021-12-18T22:09:59.382
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.383
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1022)
+
+# Created at 2021-12-18T22:09:59.383
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.384
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+
+# Created at 2021-12-18T22:09:59.384
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.385
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+
+# Created at 2021-12-18T22:09:59.385
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.386
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+
+# Created at 2021-12-18T22:09:59.386
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.387
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+
+# Created at 2021-12-18T22:09:59.387
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.388
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2021-12-18T22:09:59.388
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.389
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2021-12-18T22:09:59.389
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.390
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2021-12-18T22:09:59.390
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.391
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2021-12-18T22:09:59.391
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.395
+Unexpected IOException with stream: [TestNG] Reporter org.testng.reporters.JUnitReportReporter@2d74cbbd failed
+
+
+# Created at 2021-12-18T22:09:59.396
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created at 2021-12-18T22:09:59.396
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.397
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+
+# Created at 2021-12-18T22:09:59.398
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.399
+Unexpected IOException with stream: 	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+
+# Created at 2021-12-18T22:09:59.399
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.400
+Unexpected IOException with stream: 	at java.base/java.util.Properties.put(Properties.java:1326)
+
+# Created at 2021-12-18T22:09:59.400
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.401
+Unexpected IOException with stream: 	at java.base/java.util.Properties.setProperty(Properties.java:226)
+
+# Created at 2021-12-18T22:09:59.401
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.401
+Unexpected IOException with stream: 	at org.testng.reporters.JUnitReportReporter.createTestTagFor(JUnitReportReporter.java:216)
+
+# Created at 2021-12-18T22:09:59.402
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.403
+Unexpected IOException with stream: 	at org.testng.reporters.JUnitReportReporter.generateReport(JUnitReportReporter.java:129)
+
+# Created at 2021-12-18T22:09:59.403
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.403
+Unexpected IOException with stream: 	at org.testng.TestNG.generateReports(TestNG.java:1097)
+
+# Created at 2021-12-18T22:09:59.404
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.404
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1022)
+
+# Created at 2021-12-18T22:09:59.405
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.405
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+
+# Created at 2021-12-18T22:09:59.406
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.406
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+
+# Created at 2021-12-18T22:09:59.407
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.407
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+
+# Created at 2021-12-18T22:09:59.408
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.408
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+
+# Created at 2021-12-18T22:09:59.409
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.409
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2021-12-18T22:09:59.410
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.410
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2021-12-18T22:09:59.410
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.411
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2021-12-18T22:09:59.411
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.412
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2021-12-18T22:09:59.412
+Unexpected IOException with stream: 
+
+
+# Created at 2021-12-18T22:09:59.428
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,testrunners.MyTestRunner,null,null,null
+
+
